@@ -23,14 +23,9 @@ def each_item(base_url):
                 href.append(the_whole_url[0].attrib.get('href'))
             except IndexError:
                 continue
-        # print(the_whole_url[0].attrib.get('href'))
 
-# each_item(base_url[0])
-# count = 0
-# for i in href:
-#     print(i)
-#     count +=1
-# print(count)
+
+
 
 article = ''
 ti = 0
